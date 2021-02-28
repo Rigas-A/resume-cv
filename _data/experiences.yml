@@ -1,0 +1,13 @@
+# Jobs
+- title: IEEE Student Branch
+  description: Events organization management Web app
+  skills: Golang
+  github: https://github.com/ionian-uni-ieee/ieeesb-app 
+
+- title: Defibrillator Locator for EKAB (in progress)
+  description: at Computational Modeling Laboratory of Ionian University.
+  skills: React Native  PHP and MySQL.
+
+- title: Scraper for booking
+  description: It passes information about hotels and prints them in excel for further use.
+  skills: Python, Beautiful Soup.

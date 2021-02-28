@@ -1,0 +1,96 @@
+html {
+    text-align: center;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15rem;
+
+}
+
+section {
+    margin-top: 5rem;
+}
+
+h2 {
+    @include sans;
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+
+ul {
+    columns: 2;
+    column-gap: 8rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-content {
+    text-align: left;
+    margin-top: 2rem;
+
+}
+
+.name {
+    @include sans;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    line-height: 2;
+    margin: 1rem 0 0;
+}
+
+
+.section-header {
+    @include section_border;
+    margin-bottom: 1.5rem;
+    
+    h2 {
+        @include sans;
+        font-weight: 900;
+        font-size: 1.75rem;
+        letter-spacing: -.05rem;
+        margin: 0;
+    }
+}
+
+.github-repo {
+    float: right;
+    font-size: 1rem;
+}
+.nda {
+    float: right;
+    font-size: 1rem;
+    color: red;
+}
+.date {
+    float: right;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.item {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+.item-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+
+.item-info {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+.list-items {
+    font-size: 1.75rem;
+    font-weight: 400;
+}

@@ -1,0 +1,15 @@
+<section>
+
+    <header class="section-header">
+        <h2>Education</h2>
+    </header>
+
+    {% assign education = site.data.education %}
+    <div class="section-content">
+        <h3 class="item-title" >{{education.university}} 
+            <div class="date">{{education.date}} </div>
+        </h3>
+        <h3 class="item-info" >{{education.description}}</h3>
+    
+    </div>
+</section>

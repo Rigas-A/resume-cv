@@ -1,0 +1,12 @@
+<section>
+
+    <header class="section-header">
+        <h2>Volunteer</h2>
+    </header>
+
+    <div class="section-content">
+        {% for org in site.data.volunteer %}
+        <h3 class="item" >{{org.title}}</h3>
+        {% endfor %}    
+    </div>
+</section>

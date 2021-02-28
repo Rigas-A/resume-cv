@@ -1,0 +1,13 @@
+<section>
+
+    <header class="section-header">
+        <h2>Languages</h2>
+    </header>
+
+    {% for language in site.data.languages %}
+        <div class="section-content">
+        <h3 class="item" >{{language.lang}} &emsp;&emsp;--{{language.degree}}</h3>
+    
+    </div>
+    {% endfor %}
+</section>

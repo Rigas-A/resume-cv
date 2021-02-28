@@ -1,0 +1,22 @@
+<section>
+
+<header class="section-header">
+    <h2>Experience</h2>
+</header>
+
+{% for job in site.data.experiences %}
+<div class="section-content">
+    <h3 class="item-title" >{{job.title}} 
+        {% if job.github %}
+        <div class="github-repo"> <a href={{job.github}} >GitHub Repository</a> </div>
+        {% else %}
+        <div class="nda"> NDA </div>
+        {% endif %}
+    </h3>
+    
+    <h3 class="item-info" >{{job.description}}</h3>
+    <h3 class="item-info" >{{job.skills}}</h3>
+
+</div>
+{% endfor %}
+</section>

@@ -1,0 +1,15 @@
+<section>
+
+    <header class="section-header">
+        <h2>Additional Skills</h2>
+    </header>
+
+    <div class="section-content">
+        <ul>    
+        {% for skill in site.data.skills %}
+            <li class="list-items" >{{skill.skill}}</li>
+        {% endfor %}
+    </ul>    
+    
+    </div>
+</section>
